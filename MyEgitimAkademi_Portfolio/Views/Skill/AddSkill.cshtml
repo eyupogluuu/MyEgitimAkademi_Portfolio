@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "AddSkill";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<br />
+<h2 style="background-color:burlywood; text-align:center; border-radius:8px; color:ghostwhite">Yeni Yetenek Ekle </h2>
+<br />
+
+<form @*class="form-control"*@ method="post">
+    <br />
+    <label class="form-control">Yetenek Adı Girin:</label>
+    <input type="text" name="skillName" class="form-control" />
+    <br />
+    <button class="btn btn-outline-info">Yetenek Ekle</button>
+</form>
+
+

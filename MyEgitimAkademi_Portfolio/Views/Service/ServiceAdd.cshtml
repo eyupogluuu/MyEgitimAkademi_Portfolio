@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "ServiceAdd";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<br />
+<h2 style="background-color:burlywood; text-align:center; border-radius:8px; color:ghostwhite">Yeni Hizmet Ekle </h2>
+<br />
+
+<form  method="post">
+    <br />
+    <label @*class="form-control"*@ >Hizmet Başlığı Girin:</label>
+    <br />
+    <input type="text" name="serviceName" class="form-control"  />
+    <br />
+    <button class="btn btn-outline-secondary">Kaydet </button>
+</form>

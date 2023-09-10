@@ -1,0 +1,37 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Testimonial>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<br />
+
+<h2 style="background-color:burlywood; text-align:center; border-radius:8px; color:ghostwhite">Referans Sayfası</h2>
+<br />
+<table class="table table-bordered" @*style="text-align:center;*@ background-color:beige">
+    <tr>
+        <th>Referans ID</th>
+        <th>Referans Adı</th>
+        <th>Referans Ünvanı</th>
+        <th>Referans Sil</th>
+        <th>Referans Güncelle</th>
+    </tr>
+    @foreach (var t in Model)
+    {
+        <tr>
+            <td>@t.testimonialID</td>
+            <td>@t.nameSurname</td>
+            <td>@t.tittle</td>
+            @*<td><a href="/Testimonial/DeleteTestimonial/@t.testimonialID" class="btn btn-outline-danger">Sil</a></td>*@
+            <td>@Html.ActionLink("Sil","DeleteTestimonial",new {id=t.testimonialID },new {
+               @class = "btn btn-outline-danger ", onclick= "return confirm('Silmek İstediğinize Emin misiniz?')"})</td>
+            <td><a href="/Testimonial/UpdateTestimonial/@t.testimonialID" class="btn btn-outline-success">Güncelle</a></td>
+
+        </tr>
+
+    }
+
+</table>
+<br />
+<a href="/Testimonial/AddTestimonial/" class="btn btn-outline-secondary">Yeni Referans Ekle</a>
+

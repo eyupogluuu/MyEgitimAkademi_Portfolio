@@ -1,0 +1,68 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Experience>
+<section class="w3l-homeblock3" id="clients">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="text">çalışma geçmişim </span>
+                    <h3 class="title-big">
+                        pozisyonlar  / şirketler
+                        @*<span> Collaborations.</span>*@
+                    </h3>
+                    <p class="mt-4">
+                        son yıllarda bazı kesimlerden insanlarla ve firmalarla çalışma şansına sahip oldum hepsinin bana çok önemli katkıları olduğunu düşünüyorum
+                    </p>
+                    <div class="reward-list mt-5">
+                        <div class="reward-item">
+                            @*<div class="reward-item-photo">
+            1k+
+        </div>*@
+                            @foreach (var e in Model)
+                            {
+                            <div class="reward-item-photo">
+                                @e.experienceperiod
+                            </div>
+                                <div class="reward-item-detail">
+                                    <span class="reward-item-title">@e.experiencetittle</span>
+                                    @*<p class="reward-item-descr">@e.experienceperiod</p>*@
+                                </div>
+                            }
+
+                        </div>
+                        @*<div class="reward-item">
+                            <div class="reward-item-photo">
+                                95%
+                            </div>
+                            <div class="reward-item-detail">
+                                <span class="reward-item-title">Sensitive feedback</span>
+                                <p class="reward-item-descr">For Design quality</p>
+                            </div>
+                        </div>*@
+                        @*<div class="reward-item">
+                            <div class="reward-item-photo">
+                                150+
+                            </div>
+                            <div class="reward-item-detail">
+                                <span class="reward-item-title">Trusted sponsers</span>
+                                <p class="reward-item-descr">Featued by top rankers</p>
+                            </div>
+                        </div>*@
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self text-center mt-lg-0 mt-md-5 mt-4">
+                    <div class="images">
+                        <img src="~/Template/iportfolio-starter/assets/images/client1.png" class="img-fluid" alt="" />
+                        <img src="~/Template/iportfolio-starter/assets/images/client2.png" class="img-fluid" alt="" />
+                        <img src="~/Template/iportfolio-starter/assets/images/client3.png" class="img-fluid" alt="" />
+                        <img src="~/Template/iportfolio-starter/assets/images/client4.png" class="img-fluid" alt="" />
+                        @*<img src="~/Template/iportfolio-starter/assets/images/client5.png" class="img-fluid" alt="" />
+                        <img src="~/Template/iportfolio-starter/assets/images/client6.png" class="img-fluid" alt="" />
+                        <img src="~/Template/iportfolio-starter/assets/images/client2.png" class="img-fluid" alt="" />
+                        <img src="~/Template/iportfolio-starter/assets/images/client3.png" class="img-fluid" alt="" />
+                        <img src="~/Template/iportfolio-starter/assets/images/client4.png" class="img-fluid" alt="" />*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,125 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yeni Kayıt İşlemi</title>
+    <!-- custom-theme -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Course Register Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //custom-theme -->
+    <!-- css files -->
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="~/Template/web/css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- //css files -->
+
+    <link rel="stylesheet" href="~/Template/web/css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+
+</head>
+<!-- body starts -->
+<body>
+    <!-- section -->
+    <section class="register">
+        <div class="register-full">
+            <div class="register-left">
+                <div class="register">
+                    <div class="logo">
+                        <a href="#"><span class="fa fa-graduation-cap" aria-hidden="true"></span></a>
+                    </div>
+                    <h1>Yeni Kayıt Sayfası</h1>
+                    <p>
+                        sağ tarafta yer alan bilgileri eksiksiz doldurup kayıt işleminizi tamamlayabilirsiniz..
+                        kaydınızın tamamlanması için mail aktivasyonu gerekebilir
+                    </p>
+                    <div class="content3">
+                        <ul>
+                            <li><a class="" href="/Default/Index/"> Anasayfa</a></li>
+                            <li><a class="read" href="/Login/Index/"> Giriş yap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="register-right">
+                <div class="register-in">
+                    <h2><span class="fa fa-pencil"></span> kayıt form</h2>
+                    <div class="register-form">
+                        <form method="post">
+                            <div class="fields-grid">
+                                <div class="styled-input agile-styled-input-top">
+                                    <input type="text" name="nameSurname" required="">
+                                    <label>adınız soyadınız :</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input agile-styled-input-top">
+                                    <input type="text" name="username" required="">
+                                    <label>kullanıcı adınız :</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="email" name="email" required="">
+                                    <label>email:</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="tel" name="phone" required="">
+                                    <label>telefon numarası:</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="password" name="password" required="">
+                                    <label>şifre:</label>
+                                    <span></span>
+                                </div>
+                                @*<div class="styled-input agile-styled-input-top">
+                <select id="category2" required="">
+                    <option value="">Course Type*</option>
+                    <option value="">Diploma</option>
+                    <option value="">Full time</option>
+                    <option value="">Part time</option>
+                    <option value="">Higher degree</option>
+                    <option value="">Graduate</option>
+                    <option value="">Pg</option>
+                    <option value="">Degree</option>
+                </select>
+                <span></span>
+            </div>*@
+                                <div class="clear"> </div>
+                                <label class="checkbox"><input type="checkbox" name="checkbox" checked><i></i>şarlar ve kuralları kabul ediyorum @*<a href="/Default/partialPopup/">*@@*</a>*@</label>
+                            </div>
+                            <button onclick="myFunction()">şartlar ve kurallara göz at</button>
+
+                            <script>
+                                function myFunction() {
+                                    alert("İşbu sözleşme taraflara sözleşme konusu site ile ilgili hak ve yükümlülükler yükler ve taraflar işbu sözleşmeyi kabul ettiklerinde bahsi geçen hak ve yükümlülükleri eksiksiz, doğru, zamanında, işbu sözleşmede talep edilen şartlar dâhilinde yerine getireceklerini beyan ederler.");
+                                }
+                            </script>
+                            <input type="submit" value="kayıt ol">
+                        </form>
+                        @*<h2>JavaScript Alert</h2>*@
+
+                        
+
+                    </div>
+                </div>
+                <div class="clear"> </div>
+            </div>
+            <div class="clear"> </div>
+        </div>
+        <!-- copyright -->
+        <p class="agile-copyright">@DateTime.Now.Year Course Register Form. tüm hakları saklıdır | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
+        <!-- //copyright -->
+    </section>
+    <!-- //section -->
+</body>
+<!-- //body ends -->
+</html>
+

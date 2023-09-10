@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "projectAdd";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<br />
+<h2 style="background-color:burlywood; text-align:center; border-radius:8px; color:ghostwhite">Yeni Proje Ekle </h2>
+<br />
+
+<form @*class="form-control"*@ method="post">
+    <br />
+    <label>Proje Adı:</label>
+    <input type="text" name="experiencetittle" class="form-control" />
+    <br />
+    <label>Açıklama:</label>
+    <input type="text" name="experienceperiod" class="form-control" />
+    <br />
+    <label>Kategori:</label>
+    <input type="text" name="experienceperiod" class="form-control" />
+    <br />
+    <label>Proje Süresi(Gün):</label>
+    <input type="text" name="experienceperiod" class="form-control" />
+    <br />
+    <label>Maliyeti:</label>
+    <input type="text" name="experienceperiod" class="form-control" />
+    <br />
+    <button class="btn btn-outline-info">Proje Ekle</button>
+</form>
+

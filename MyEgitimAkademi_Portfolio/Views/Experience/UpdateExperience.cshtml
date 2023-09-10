@@ -1,0 +1,26 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Experience
+@{
+    ViewBag.Title = "UpdateExperience";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<br />
+
+<h2 style="background-color:burlywood; text-align:center; border-radius:8px; color:ghostwhite">Deneyim Güncelleme Sayfası</h2>
+<br />
+<form class="form-control" method="post">
+    <br />
+    <label>Deneyim ID</label>
+    @Html.TextBoxFor(x => x.experienceID, new { @class = "form-control" })
+    <br />
+    <label>Deneyim Adı</label>
+    @Html.TextBoxFor(x => x.experiencetittle, new { @class = "form-control" })
+    <br />
+    <label>Deneyim Suresi</label>
+    @Html.TextBoxFor(x => x.experienceperiod, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Verileri Güncelle</button>
+</form>
+
+
+

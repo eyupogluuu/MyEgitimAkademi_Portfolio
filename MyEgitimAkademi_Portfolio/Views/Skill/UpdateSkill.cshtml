@@ -1,0 +1,21 @@
+﻿@model MyEgitimAkademi_Portfolio.Models.Skill
+@{
+    ViewBag.Title = "UpdateSkill";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<br />
+
+<h2 style="background-color:burlywood; text-align:center; border-radius:8px; color:ghostwhite">Referans Güncelleme Sayfası</h2>
+<br />
+<form class="form-control" method="post">
+    <br />
+    <label>Referans ID</label>
+    @Html.TextBoxFor(x => x.skillID, new { @class = "form-control" })
+    <br />
+    <label>Referans Adı Soyadı</label>
+    @Html.TextBoxFor(x => x.skillName, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Verileri Güncelle</button>
+</form>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b77c8c2f45864d7aa4bb6751ab6e57a4" Name="Diagram1">
+        <EntityTypeShape EntityType="myPortfolioDBModel.About" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Service" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Testimonial" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Category" Width="1.5" PointX="3.375" PointY="3.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Projects" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.sysdiagrams" Width="1.5" PointX="5.375" PointY="3.75" />
+        <AssociationConnector Association="myPortfolioDBModel.FK_Projects_Category" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Skill" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Experience" Width="1.5" PointX="3.375" PointY="6.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Awards" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Admin" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Adress" Width="1.5" PointX="7.375" PointY="3.75" />
+        <EntityTypeShape EntityType="myPortfolioDBModel.Contact" Width="1.5" PointX="7.375" PointY="6.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
