@@ -7,3 +7,4 @@ ASP.NET MVC <br>
 Db First <br>
 Entity Framework <br>
 SQL Server <br>
+**Kullanılan Teknolojiler:**<br>
