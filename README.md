@@ -29,3 +29,11 @@ SQL Server <br>
 ![](https://github.com/eyupogluuu/MyEgitimAkademi_Portfolio/blob/master/6.PNG)<br>
 
 ![](https://github.com/eyupogluuu/MyEgitimAkademi_Portfolio/blob/master/7.PNG)<br>
+
+**Amaç**
+Bu projenin amacı kullanıcıların web sitesinin içeriğini kolayca yönetmelerini sağlamaktır. Ayrıca, web sitesinin her verisi dinamik bir şekilde listelenir, bu da kullanıcıların içeriklerini anlık olarak güncellemelerine ve yeni içerik eklemelerine olanak sağlar. Bu sayede kullanıcı deneyimini sürekli olarak iyileştirme ve güncel tutma konusunda maksimum esneklik sağlar.
+
+**Kurulum**
+Projeyi klonlayın.
+SQL Server veritabanı oluşturun ve bağlantı ayarlarını appsettings.json dosyasında güncelleyin.
+Proje klasöründe terminali açın ve aşağıdaki komutları çalıştırın:
