@@ -9,3 +9,5 @@ Entity Framework <br>
 SQL Server <br>
 
 **Ekran Resimleri:**<br>
+
+![](https://github.com/eyupogluuu/MyEgitimAkademi_Portfolio/blob/master/6.PNG)
