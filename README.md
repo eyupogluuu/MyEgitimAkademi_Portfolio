@@ -34,6 +34,6 @@ SQL Server <br>
 Bu projenin amacı kullanıcıların web sitesinin içeriğini kolayca yönetmelerini sağlamaktır. Ayrıca, web sitesinin her verisi dinamik bir şekilde listelenir, bu da kullanıcıların içeriklerini anlık olarak güncellemelerine ve yeni içerik eklemelerine olanak sağlar. Bu sayede kullanıcı deneyimini sürekli olarak iyileştirme ve güncel tutma konusunda maksimum esneklik sağlar.
 
 **Kurulum**
-Projeyi klonlayın.
-SQL Server veritabanı oluşturun ve bağlantı ayarlarını appsettings.json dosyasında güncelleyin.
+Projeyi klonlayın. <br>
+SQL Server veritabanı oluşturun ve bağlantı ayarlarını appsettings.json dosyasında güncelleyin.<br>
 Proje klasöründe terminali açın ve aşağıdaki komutları çalıştırın:
